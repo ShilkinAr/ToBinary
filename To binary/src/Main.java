@@ -36,15 +36,15 @@ public class Main {
 			}
 
 			System.out.println(type + sb + ", " + toHex(sb));
-			System.out.println("Хотите перевести еще одно число? 0 - да, остальное - нет.");
+			System.out.println("РҐРѕС‚РёС‚Рµ РїРµСЂРµРІРµСЃС‚Рё РµС‰С‘ РѕРґРЅРѕ С‡РёСЃР»Рѕ? 0 - РґР°, РћСЃС‚Р°Р»СЊРЅРѕРµ - РЅРµС‚.");
 			a = (byte) number.nextInt();
 		} while (a == 0);
 	}
 
 	public static void watsTheTypeFractional() {
 		Scanner type = new Scanner(System.in);
-		System.out.println("В какой тип перевести число? FLOAT(4), DOUBLE(5)");
-		System.out.println("Введите число от 4 до 5");
+		System.out.println("Р’ РєР°РєРѕР№ С‚РёРї РЅРµРѕР±С…РѕРґРёРјРѕ РїРµСЂРµРІРµСЃС‚Рё? FLOAT(4), DOUBLE(5)");
+		System.out.println("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ РѕС‚ 4 РґРѕ 5");
 		preferredType = type.nextByte();
 	}
 
@@ -84,18 +84,18 @@ public class Main {
 		byte a = 0;
 		switch (type) {
 		case 0:
-			System.out.println("В какой тип данных необходимо перевести? BYTE(0), SHORT(1), INT(2), LONG(3)");
-			System.out.println("Введите число от 0 до 3");
+			System.out.println("Р’ РєР°РєРѕР№ С‚РёРї РЅРµРѕР±С…РѕРґРёРјРѕ РїРµСЂРµРІРµСЃС‚Рё? BYTE(0), SHORT(1), INT(2), LONG(3)");
+			System.out.println("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ РѕС‚ 0 РґРѕ 3");
 			preferredType = type1.nextByte();
 			break;
 		case 1:
-			System.out.println("В какой тип данных необходимо перевести? SHORT(1), INT(2), LONG(3)");
-			System.out.println("Введите число от 1 до 3");
+			System.out.println("Р’ РєР°РєРѕР№ С‚РёРї РЅРµРѕР±С…РѕРґРёРјРѕ РїРµСЂРµРІРµСЃС‚Рё? SHORT(1), INT(2), LONG(3)");
+			System.out.println("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ РѕС‚ 1 РґРѕ 3");
 			preferredType = type1.nextByte();
 			break;
 		case 2:
-			System.out.println("В какой тип данных необходимо перевести? INT(2), LONG(3)");
-			System.out.println("Введите число от 2 до 3");
+			System.out.println("Р’ РєР°РєРѕР№ С‚РёРї РЅРµРѕР±С…РѕРґРёРјРѕ РїРµСЂРµРІРµСЃС‚Рё? INT(2), LONG(3)");
+			System.out.println("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ РѕС‚ 2 РґРѕ 3");
 			preferredType = type1.nextByte();
 			break;
 		}
